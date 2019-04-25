@@ -6,4 +6,7 @@ describe("primeiro digito igual ao resultado da conta", () => {
     it("primeiro digito deve retornar 6", () => {
         expect(cpf.cpfValidator("47154849860")).to.equal("6")
     })
+    it("segundo digito deve retornar 0", () => {
+        expect(cpf.cpfValidator("47154849860")).to.equal("0")
+    })
 }) 
