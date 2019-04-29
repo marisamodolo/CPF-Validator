@@ -1,13 +1,22 @@
-# Validador de CPF
+## Validador de CPF
 
 Esta biblioteca tem a funcionalidade de checar se um número de CPF é valido, para uso em aplicações web. 
-Como instalar:
 
-`$  npm install maahc3-cpf`
+### Como instalar:
+
+```
+  $  npm install mhc3-cpf
+```
 
 ### Como utilizar:
 
-versão 1.0.0
+``` 
+  const cpfValidator = require("mhc3-cpf");
+  console.log(cpfValidator(00000000000)) 
+ ```
 
 ### Funcionalidades: 
 * Checa se um cpf é válido através dos dígitos verificadores (utilizando regra matemática específica) e retorna *true* ou *false* de acordo com o caso.
+
+### Versão:
+* **1.0.0**
