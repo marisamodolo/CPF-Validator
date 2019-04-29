@@ -1,5 +1,5 @@
 {
-  "name": "maahc3-cpf",
+  "name": "mhc3-cpf",
   "version": "1.0.0",
   "description": "Validador de CPF",
   "main": "./lib/index.js",
