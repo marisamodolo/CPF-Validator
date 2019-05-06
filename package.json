@@ -1,6 +1,6 @@
 {
-  "name": "mahc3-cpf",
-  "version": "1.0.4",
+  "name": "mhc-cpf",
+  "version": "1.0.0",
   "description": "Validador de CPF",
   "main": "./lib/index.js",
   "scripts": {
