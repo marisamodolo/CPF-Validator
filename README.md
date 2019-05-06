@@ -5,13 +5,13 @@ Esta biblioteca tem a funcionalidade de checar se um número de CPF é valido, p
 ### Como instalar:
 
 ```js
-  $  npm install mhc-cpf
+  $  npm install mh-cpf-val
 ```
 
 ### Como utilizar:
 
 ```js
-  const cpf = require("mhc-cpf");
+  const cpf = require("mh-cpf-val");
   console.log(cpf.cpfValidator(00000000000)) 
  ```
 
